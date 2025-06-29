@@ -10,3 +10,9 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## My notes to run this app in the local sandbox
+1. Make sure your sso profile is active: 
+    a. aws sso login --profile admin-1
+2. to launch to sandbox, navigate to the project root then:
+    a. npx ampx sandbox --profile admin-1
